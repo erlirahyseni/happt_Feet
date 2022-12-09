@@ -1,0 +1,42 @@
+.bookSection {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url("../../assets/images/room.png");
+  background-position: center;
+  background-size: cover;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.bookSection h1 {
+  color: white;
+  text-align: center;
+  word-wrap: break-word;
+}
+
+.bookSection .content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 4rem;
+}
+
+.scrollButtonSection{
+  width: 100%;
+  display:flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 1.3rem;
+  flex-wrap: wrap;
+}
+
+.scrollButtonSection h1{
+  font-size: 0.8rem;
+  font-weight: 200;
+}
+
+

@@ -1,0 +1,124 @@
+.searchMainSection {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  background-image: url('../../assets/images/KawaiBg.png');
+  background-size: cover;
+  background-position: center;
+  flex-wrap: wrap;
+}
+
+.animeSection {
+  display: flex;
+  flex: 1;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.animeSection h1 {
+  font-size: 4rem;
+  line-height: 5rem;
+  font-weight: 900;
+  color: white;
+  word-wrap: break-all;
+}
+
+
+.secound-Section {
+  display: flex;
+  flex: 1;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.jokeContent{
+  padding: 0 5rem;
+  text-align: center;
+  font-weight: 500;
+}
+
+.searchSection {
+  color: white;
+  background: rgba(255, 255, 255, 0.17);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.5px);
+  -webkit-backdrop-filter: blur(6.5px);
+  border-radius: 2rem;
+  width: 28.125rem;
+  height: 31.25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.searchSection h1 {
+  font-size: 1.5rem;
+  color: #302854;
+  text-align: center;
+  word-wrap: break-all;
+}
+
+.lineSecion{
+  background-color: black;
+  height: 100px;
+  width: 0.1rem;
+}
+
+.firstSection #funsection{
+  color: #000;
+}
+
+.purple {
+  color: #302854;
+}
+
+.third-Section h1 {
+  font-size: 0.8rem;
+  font-weight: 400;
+  transform: rotate(-90deg);
+  color: #302854;
+}
+
+.third-Section {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  flex: 0.1;
+}
+
+.socialMediaIcons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  padding-bottom: 2rem;
+}
+
+.third-Section .line {
+  background-color:#302854;
+  height: 5rem;
+  width: 0.01rem;
+}
+.socialMediaIcons li:hover{
+  transform: scale(1.2);
+}
+
+li {
+  list-style: none;
+}
+
+.searchSection p {
+  font-size: 0.8rem;
+  padding: 1rem;
+  color: #ffffff;
+  text-align: center;
+  word-wrap: break-word;
+}

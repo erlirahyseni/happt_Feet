@@ -1,0 +1,36 @@
+.getJokeButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #dbd5fb;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;  
+  padding: 0.5rem;
+  border-radius: 30px;
+  margin-bottom: 1rem;
+}
+
+.getJokeButton h1 {
+  font-size: 0.7rem;
+  font-weight: 425;
+  padding-left: 0.8rem;
+  padding-right: 1rem;
+}
+
+.getJokeButton button {
+  background-color: #7c73ca;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;  color: white;
+  border: transparent;
+  border-radius: 50%;
+  padding: 0.5rem;
+  width: 2rem;
+  height: 2rem;
+}
+
+li {
+  list-style: none;
+}
+
+.getJokeButton button:hover{
+    transform: scale(1.1);
+}

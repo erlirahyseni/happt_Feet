@@ -1,0 +1,33 @@
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0b0e16;
+  padding: 1rem 7rem;
+}
+
+.navBar .logo h1 {
+  color: white;
+  font-size: 20px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  list-style: none;
+}
+
+nav a:hover{
+    color: #6957e4;
+    text-decoration: none;
+    background-color: #131427;
+    padding: 10px 20px;
+    list-style: none;
+  }

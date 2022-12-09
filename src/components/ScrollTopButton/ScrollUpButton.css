@@ -1,0 +1,20 @@
+.scrollUp button{
+    width: 2rem;
+    height: 2rem;
+    background-color: #7c73ca;
+    border-radius: 50%;
+    box-shadow: rgba(50, 50, 93, 0.089) 0px 50px 100px -20px,
+      #001a8385 0px -2px 6px 0px inset;  
+    border: transparent;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 31.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+  .scrollUp button:hover{
+    transform: scale(1.1);
+  }

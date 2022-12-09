@@ -1,0 +1,108 @@
+.bookSearcHeader{
+  background-color: #b2afe5;
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.bookSearcHeader .content{
+  display: flex;
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 5rem;
+}
+
+#homeButton {
+  width: 1.8rem;
+  height: 1.8rem;
+  background-color: #7c73ca;
+  border-radius: 50%;
+  box-shadow: rgba(50, 50, 93, 0.089) 0px 50px 100px -20px,
+    #001a8385 0px -2px 6px 0px inset;  
+  border: transparent;
+  color: white;
+  font-size: 0.6rem;
+  font-weight: 31.25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+#homeButton:active {
+  background: #302854;
+}
+
+#homeButton:hover {
+  transform: scale(1.1);}
+
+.bookSearcHeader .content h1 {
+  font-size: 4rem;
+  line-height: 5rem;
+  font-weight: 700;
+  color: white;
+  padding: 1rem 0;
+}
+
+.bookSearcHeader .content p {
+  font-weight: 300;
+  padding-bottom: 2rem;
+}
+
+
+.bookSearcHeader .picture{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex: 1;
+  background-image: url("../../assets/images/girl.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.searchFiled input {
+  border: transparent;
+  padding: 14px 45px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.123) 0px -2px 6px 0px inset;
+}
+
+.searchFiled form{
+  display: flex;
+  display: block;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+
+.searchFiled button {
+  padding: 14px 24px;
+  resize: none;
+  outline: none;
+  border: transparent;
+  background-color: #7e6ce0;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  color: white;
+  cursor: pointer;
+ 
+}
+
+.searchFiled button:focus {
+  background-color: #302854;
+}
+
+.searchFiled input:focus {
+  resize: none;
+  outline: none;
+}
